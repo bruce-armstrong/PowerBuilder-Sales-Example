@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Project>
+  <Type Name="pb"/>
+  <Application Name="salesdemo"/>
+  <Libraries AppEntry="salesdemo.pbl">
+    <Library Path="salesdemo.pbl"/>
+    <Library Path="common.pbl"/>
+    <Library Path="person.pbl"/>
+    <Library Path="product.pbl"/>
+    <Library Path="salesorder.pbl"/>
+    <Library Path="report.pbl"/>
+  </Libraries>
+  <Deployings>
+    <Deploying Deploy="1" Library="salesdemo.pbl" Name="salesdemo_local"/>
+    <Deploying Deploy="1" Library="salesdemo.pbl" Name="salesdemo_cloud"/>
+  </Deployings>
+</Project>

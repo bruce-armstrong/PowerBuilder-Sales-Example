@@ -1,0 +1,11 @@
+# PowerBuilder compiler cache (AST/object files)
+.pb/
+
+# Build output
+build/
+
+# IDE backup copies
+_BackupFiles/
+
+# Per-user IDE options
+*.usr.opt

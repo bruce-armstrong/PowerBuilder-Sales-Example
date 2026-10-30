@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Project>
+  <Type Name="pb"/>
+  <Application Name="salesdemo"/>
+  <Libraries AppEntry="salesdemo.pbl">
+    <Library Path="salesdemo.pbl"/>
+    <Library Path="common.pbl"/>
+    <Library Path="person.pbl"/>
+    <Library Path="product.pbl"/>
+    <Library Path="salesorder.pbl"/>
+    <Library Path="report.pbl"/>
+    <Library Path="pfc libs\pfeapsrv.pbl"/>
+    <Library Path="pfc libs\pfedwsrv.pbl"/>
+    <Library Path="pfc libs\pfemain.pbl"/>
+    <Library Path="pfc libs\pfeutil.pbl"/>
+    <Library Path="pfc libs\pfewnsrv.pbl"/>
+    <Library Path="pfc libs\pfcapsrv.pbl"/>
+    <Library Path="pfc libs\pfcdwsrv.pbl"/>
+    <Library Path="pfc libs\pfcmain.pbl"/>
+    <Library Path="pfc libs\pfcutil.pbl"/>
+    <Library Path="pfc libs\pfcwnsrv.pbl"/>
+  </Libraries>
+  <Deployings>
+    <Deploying Deploy="1" Library="salesdemo.pbl" Name="salesdemo_local"/>
+    <Deploying Deploy="1" Library="salesdemo.pbl" Name="salesdemo_cloud"/>
+  </Deployings>
+</Project>
